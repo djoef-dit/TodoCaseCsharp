@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace ToDo.Domain.Model
 {
@@ -30,7 +31,7 @@ namespace ToDo.Domain.Model
 
         public List<ToDo> GetCompletedToDos()
         {
-            return _toDoList;
+            return _toDoList.Where(todo => !todo.Completed).ToList();
         }
 
         public void AddToDo(ToDo toDo)

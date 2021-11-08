@@ -15,7 +15,6 @@ namespace Todo.APi.Controllers
         [HttpGet]
         public IEnumerable<ToDo.Domain.Model.ToDo> Get()
         {
-
             return null;
         }
 

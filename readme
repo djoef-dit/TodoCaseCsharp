@@ -1,0 +1,5 @@
+# Lav en "get" metode, som henter alle todos ud.
+
+# Lav en "post" metode, hvormed man kan indsætte en post.
+
+# Lav en "get" metode, som henter alle completed todos.
