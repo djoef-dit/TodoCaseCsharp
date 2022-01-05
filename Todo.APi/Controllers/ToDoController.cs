@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using Todo.Domain.Model;
 
-namespace Todo.APi.Controllers
+namespace Todo.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -13,7 +14,7 @@ namespace Todo.APi.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<ToDo.Domain.Model.ToDo> Get()
+        public IEnumerable<TodoModel> Get()
         {
             return null;
         }

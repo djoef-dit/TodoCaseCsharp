@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 
-namespace ToDo.Domain.Model
+namespace Todo.Domain.Model
 {
-    public interface IToDoRepository
+    public interface ITodoRepository
     {
-        List<ToDo> GetToDos();
+        List<TodoModel> GetToDos();
 
-        List<ToDo> GetCompletedToDos();
+        List<TodoModel> GetCompletedToDos();
 
-        void AddToDo(ToDo toDo);
+        void AddToDo(TodoModel toDo);
     }
 }

@@ -1,18 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31727.386
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todo.APi", "Todo.APi\Todo.APi.csproj", "{472AA3F5-35DD-4C2B-995F-28A0A83B4535}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todo.Api", "Todo.APi\Todo.Api.csproj", "{472AA3F5-35DD-4C2B-995F-28A0A83B4535}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Domain", "ToDo.Domain\ToDo.Domain.csproj", "{2217F678-5BFE-459F-85BA-862450B80BA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todo.Domain", "ToDo.Domain\Todo.Domain.csproj", "{2217F678-5BFE-459F-85BA-862450B80BA8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D5D9CE26-388E-4E41-89ED-9C256FD52E17}"
 	ProjectSection(SolutionItems) = preProject
 		readme = readme
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Domain.Tests", "ToDo.Domain.Tests\ToDo.Domain.Tests.csproj", "{69A35754-141E-4D00-BF92-09130B19537A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Domain.Tests", "ToDo.Domain.Tests\ToDo.Domain.Tests.csproj", "{69A35754-141E-4D00-BF92-09130B19537A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

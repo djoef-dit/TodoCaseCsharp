@@ -1,6 +1,6 @@
-﻿namespace ToDo.Domain.Model
+﻿namespace Todo.Domain.Model
 {
-    public class ToDo
+    public class TodoModel
     {
         public string Name { get; set; }
         public bool Completed { get; set; }

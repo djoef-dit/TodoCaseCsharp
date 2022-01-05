@@ -1,40 +1,40 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace ToDo.Domain.Model
+namespace Todo.Domain.Model
 {
-    public class ToDoRepository : IToDoRepository
+    public class ToDoRepository : ITodoRepository
     {
-        private List<ToDo> _toDoList = new List<ToDo>()
+        private List<TodoModel> _toDoList = new List<TodoModel>()
         {
-            new ToDo()
+            new TodoModel()
             {
                 Completed = true,
                 Name = "læs opgaven"
             },
-            new ToDo()
+            new TodoModel()
             {
                 Completed = false,
                 Name = "løs opgaven"
             },
-            new ToDo()
+            new TodoModel()
             {
                 Completed = false,
                 Name = "jublehyl"
             }
         };
 
-        public List<ToDo> GetToDos()
+        public List<TodoModel> GetToDos()
         {
             return _toDoList;
         }
 
-        public List<ToDo> GetCompletedToDos()
+        public List<TodoModel> GetCompletedToDos()
         {
             return _toDoList.Where(todo => !todo.Completed).ToList();
         }
 
-        public void AddToDo(ToDo toDo)
+        public void AddToDo(TodoModel toDo)
         {
             _toDoList.Add(toDo);
         }
